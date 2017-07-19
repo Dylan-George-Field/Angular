@@ -8,7 +8,7 @@ import { Video } from './video';
 @Injectable()
 export class VideoService {
 
-  private videoUrl = 'api/heroes'; //api
+  private videoUrl = 'api/heroes'; //api endpoint goes here.
   private headers = new Headers({'Content-Type': 'application/json'});
 
   constructor(private http: Http) {}
